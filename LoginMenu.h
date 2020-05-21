@@ -22,8 +22,8 @@ protected:
 
 public :
 
-	void display();									//外部唯一接口
-
+	void display();									//外部展示性接口
+	bool checkInDisplay();							//外边登录权限性接口
 };
 
 #endif // ! LOGIN_H_
